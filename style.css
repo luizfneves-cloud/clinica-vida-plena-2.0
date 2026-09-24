@@ -1,9 +1,11 @@
+/* Seletor Universal */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Seletor de TAG */
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #2b2b2b;
@@ -18,12 +20,6 @@ h1 {
 h2 {
     font-size: 34px;
     margin-bottom: 10px;
-}
-header, footer {
-    background-color:#0A365C;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
 }
 
 main {
@@ -54,7 +50,7 @@ textarea{
     border-left: 4px solid#0A365C;
 }
 
-
+/* Seletor de Classe */
 .form {
     display: block;
     width: 100%;
@@ -97,10 +93,19 @@ textarea{
     cursor: pointer;
 }
 
+/* Seletor de ID */
 #formulario {
     max-width: 500px;
     margin: 0 auto;
     background-color: #a6b4de;
     padding: 24px;
     border-radius: 16px;
+}
+
+/* Seletor Compartilhado */
+header, footer {
+    background-color:#0A365C;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
 }
