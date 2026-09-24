@@ -19,15 +19,8 @@ h2 {
     font-size: 34px;
     margin-bottom: 10px;
 }
-header {
+header, footer {
     background-color:#0A365C;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-}
-
-footer {
-    background-color: #0A365C;
     color: #ffffff;
     text-align: center;
     padding: 20px;
@@ -60,6 +53,8 @@ textarea{
     border-radius: 8px;
     border-left: 4px solid#0A365C;
 }
+
+
 .form {
     display: block;
     width: 100%;
