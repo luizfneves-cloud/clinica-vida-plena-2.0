@@ -8,6 +8,7 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #2b2b2b;
     line-height: 1.5;
+    background-color:aliceblue;
 }
 
 h1 {
@@ -22,12 +23,14 @@ header {
     background-color:#0A365C;
     color: #ffffff;
     text-align: center;
+    padding: 20px;
 }
 
 footer {
     background-color: #0A365C;
     color: #ffffff;
     text-align: center;
+    padding: 20px;
 }
 
 main {
@@ -36,8 +39,11 @@ main {
     padding: 32px 16px;
 }
 
-nav ul {
+nav a {
     list-style: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 nav li {
@@ -45,7 +51,61 @@ nav li {
     margin: 0 16px;
 }
 
-nav a {
+label{
+    display: block;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 8px;
+    border-left: 4px solid#0A365C;
+}
+.form {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    border: 0.5px solid #ccc;
+    border-left: 4px solid #0A365C;
+}
+
+.form2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    border: 1px solid #1b1b1b;
+    background-color: #ffffff;
+    border-left: 4px solid #0A365C;
+}
+
+.form3 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    border: 0.5px solid #ccc;
+}
+
+.botton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #0A365C;
     color: #ffffff;
-    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#formulario {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #a6b4de;
+    padding: 24px;
+    border-radius: 16px;
 }
